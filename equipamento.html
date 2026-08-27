@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wendel — Equipamento</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="site-shell">
+
+<header class="site-header">
+  <a class="brand-mark" href="index.html">W</a>
+  <div class="brand-copy">
+    <h1>Wendel</h1>
+    <p>Druida do Círculo do Fogo Selvagem · Hex Flame</p>
+  </div>
+  <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Abrir ou fechar menu">☰</button><nav class="main-nav" aria-label="Navegação principal">
+    <a class="nav-link" href="index.html"><span>◆</span>Ficha</a>
+    <a class="nav-link" href="habilidades.html"><span>✦</span>Habilidades</a>
+    <a class="nav-link" href="magias.html"><span>✧</span>Magias</a>
+    <a class="nav-link" href="equipamento.html" aria-current="page"><span>▣</span>Equipamento</a>
+    <a class="nav-link" href="historia.html"><span>◇</span>História</a>
+  </nav>
+</header>
+
+
+<section class="equipment-page">
+  <section class="hero-card equipment-hero">
+    <div class="hero-header">
+      <div>
+        <h2>Equipamento de Wendel</h2>
+        <p>Itens, armas e objetos carregados pelo personagem.</p>
+      </div>
+      <span class="hero-badge">Mochila</span>
+    </div>
+  </section>
+
+  <section class="inventory-layout">
+    <article class="item-card legendary-item">
+      <header class="item-card-header">
+        <div class="item-icon" aria-hidden="true">▣</div>
+        <div class="item-title-block">
+          <span class="eyebrow">Cajado · Raro</span>
+          <h2>Cajado das Florestas</h2>
+          <p>Requer sintonização com um druida</p>
+        </div>
+        <div class="charge-badge">
+          <span>Cargas</span>
+          <strong>10</strong>
+        </div>
+      </header>
+
+      <div class="item-summary-grid">
+        <div><span>Ataques e dano</span><strong>+2</strong></div>
+        <div><span>Ataques com magia</span><strong>+2</strong></div>
+        <div><span>Recuperação</span><strong>1d6 + 4</strong></div>
+        <div><span>Recarga</span><strong>Amanhecer</strong></div>
+      </div>
+
+      <div class="item-body">
+        <section class="item-section">
+          <h3>Propriedades</h3>
+          <p>Este cajado pode ser empunhado como um bordão mágico que concede +2 de bônus nas jogadas de ataque e dano feitas com ele. Enquanto estiver empunhando-o, você ganha +2 de bônus nas jogadas de ataque com magia.</p>
+          <p>O cajado tem 10 cargas para as propriedades a seguir. Ele recupera 1d6 + 4 cargas gastas diariamente ao amanhecer. Se você gastar a última carga, role um d20. Em um 1, o cajado perde suas propriedades e se torna um bordão não-mágico.</p>
+        </section>
+
+        <section class="item-section">
+          <h3>Magias</h3>
+          <p>Você pode usar uma ação para gastar 1 ou mais de suas cargas para conjurar uma das seguintes magias através dele, usando a CD de resistência de suas magias:</p>
+
+          <div class="item-spell-grid">
+            <div><span>Despertar</span><strong>5 cargas</strong></div>
+            <div><span>Falar com Animais</span><strong>1 carga</strong></div>
+            <div><span>Falar com Plantas</span><strong>2 cargas</strong></div>
+            <div><span>Localizar Animais ou Plantas</span><strong>2 cargas</strong></div>
+            <div><span>Muralha de Espinhos</span><strong>6 cargas</strong></div>
+            <div><span>Pele de Árvore</span><strong>2 cargas</strong></div>
+          </div>
+        </section>
+
+        <section class="item-section tree-form-section">
+          <h3>Forma de Árvore</h3>
+          <p>Você pode usar uma ação para enfincar uma ponta do cajado em um terreno fértil e gastar 1 carga para transformar o cajado em uma árvore saudável.</p>
+          <p>A árvore tem 18 metros de altura e um tronco com 1,5 metro de diâmetro e os galhos na sua copa se espalham por 6 metros de raio. A árvore parece ordinária, mas irradia uma fraca aura de magia de transmutação se for alvo de detectar magia.</p>
+          <p>Enquanto estiver tocando a árvore e usar outra ação para falar sua palavra de comando, você faz com que o cajado volte a sua forma natural. Qualquer criatura na árvore cai quando ela volta a ser um cajado.</p>
+        </section>
+      </div>
+    </article>
+  </section>
+</section>
+
+</div>
+<script src="script.js"></script></body>
+</html>
